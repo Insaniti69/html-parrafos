@@ -1,0 +1,40 @@
+span.a, span.b, span.c, span.d{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+span{
+	border: 2px solid red;
+}
+
+.a{
+	display: none;
+}
+
+.b{
+	display: inline;
+}
+
+.c{
+	display: inline-block;
+}
+
+.d{
+	display: grid;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #2196F3;
+	padding: 10px;
+  }
+  
+  .grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+  }
